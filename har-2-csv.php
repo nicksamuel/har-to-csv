@@ -1,21 +1,13 @@
-<?php
-//$files = glob('images/*'); //get all file names
-//foreach($files as $file){
-//    if(is_file($file))
-//    unlink($file); //delete file
-//    echo "image deleted";
-//} 
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Will Samuel</title>
+        <title>HAR to CSV</title>
     </head>
     <body>
         <main>
             
-            <h1>Will's Har 2 CSV</h1>
+            <h1>Har 2 CSV</h1>
             
             <form method="post" enctype="multipart/form-data">
                 Select har to upload:
@@ -118,26 +110,7 @@ foreach($json_data as $json2){
                     </td>                    
                 </tr>
                 
-                <?php
-                
-                
-                    
-//                    if(strpos($filetype, 'image') !== false){
-//                    $url = $json[request][url];
-//                    $arr = explode('/', $url);
-//                    $arr = end($arr);                    
-//                    $img = __DIR__ .'/images/' . $arr;                    
-//                    file_put_contents($img, file_get_contents($url));
-//                    }
-
-?>
-            
-            
-            <?php
-       
-
-//       print_r($json2);
-        
+                <?php       
     
     }
     
